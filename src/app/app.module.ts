@@ -10,6 +10,10 @@ import { StopwatchComponent } from './stopwatch/stopwatch.component';
 import { StopwatchParentComponent } from './stopwatch-parent/stopwatch-parent.component';
 import { CpColorParentComponent } from './cpcolor-parent/cpcolor-parent.component';
 import { CpColorDirective } from './cpcolor.directive';
+import { OnChangesComponent } from './on-changes/on-changes.component';
+import { OnChangesParentComponent } from './on-changes-parent/on-changes-parent.component';
+import { DoCheckParentComponent } from './do-check-parent/do-check-parent.component';
+import { DoCheckComponent } from './do-check/do-check.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { CpColorDirective } from './cpcolor.directive';
     StopwatchComponent,
     StopwatchParentComponent,
     CpColorParentComponent,
-    CpColorDirective
+    CpColorDirective,
+    OnChangesComponent,
+    OnChangesParentComponent,
+    DoCheckParentComponent,
+    DoCheckComponent
   ],
   imports: [
     BrowserModule,
