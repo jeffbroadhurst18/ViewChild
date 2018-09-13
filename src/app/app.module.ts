@@ -16,6 +16,8 @@ import { DoCheckParentComponent } from './do-check-parent/do-check-parent.compon
 import { DoCheckComponent } from './do-check/do-check.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
+import { MissionControlComponent } from './missioncontrol/missioncontrol.component';
+import { AstronautComponent } from './astronaut/astronaut.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { CountdownParentComponent } from './countdown-parent/countdown-parent.co
     DoCheckParentComponent,
     DoCheckComponent,
     CountdownTimerComponent,
-    CountdownParentComponent
+    CountdownParentComponent,
+    MissionControlComponent,
+    AstronautComponent
   ],
   imports: [
     BrowserModule,

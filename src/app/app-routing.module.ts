@@ -7,6 +7,7 @@ import { CpColorParentComponent } from './cpcolor-parent/cpcolor-parent.componen
 import { OnChangesParentComponent } from './on-changes-parent/on-changes-parent.component';
 import { DoCheckParentComponent } from './do-check-parent/do-check-parent.component';
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
+import { MissionControlComponent } from './missioncontrol/missioncontrol.component';
 
 const routes: Routes = [
   { path: 'number-parent', component: NumberParentComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'on-changes-parent', component: OnChangesParentComponent },
   { path: 'do-check-parent', component: DoCheckParentComponent },
   { path: 'countdown-parent', component: CountdownParentComponent },
+  { path: 'missioncontrol', component: MissionControlComponent },
 ];
 
 @NgModule({
