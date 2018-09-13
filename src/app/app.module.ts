@@ -14,6 +14,8 @@ import { OnChangesComponent } from './on-changes/on-changes.component';
 import { OnChangesParentComponent } from './on-changes-parent/on-changes-parent.component';
 import { DoCheckParentComponent } from './do-check-parent/do-check-parent.component';
 import { DoCheckComponent } from './do-check/do-check.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { DoCheckComponent } from './do-check/do-check.component';
     OnChangesComponent,
     OnChangesParentComponent,
     DoCheckParentComponent,
-    DoCheckComponent
+    DoCheckComponent,
+    CountdownTimerComponent,
+    CountdownParentComponent
   ],
   imports: [
     BrowserModule,

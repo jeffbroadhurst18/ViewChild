@@ -6,6 +6,7 @@ import { StopwatchParentComponent } from './stopwatch-parent/stopwatch-parent.co
 import { CpColorParentComponent } from './cpcolor-parent/cpcolor-parent.component';
 import { OnChangesParentComponent } from './on-changes-parent/on-changes-parent.component';
 import { DoCheckParentComponent } from './do-check-parent/do-check-parent.component';
+import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
 
 const routes: Routes = [
   { path: 'number-parent', component: NumberParentComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'cpcolor-parent', component: CpColorParentComponent },
   { path: 'on-changes-parent', component: OnChangesParentComponent },
   { path: 'do-check-parent', component: DoCheckParentComponent },
+  { path: 'countdown-parent', component: CountdownParentComponent },
 ];
 
 @NgModule({
