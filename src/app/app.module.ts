@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NumberComponent } from './number/number.component';
@@ -18,6 +19,7 @@ import { CountdownTimerComponent } from './countdown-timer/countdown-timer.compo
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
 import { MissionControlComponent } from './missioncontrol/missioncontrol.component';
 import { AstronautComponent } from './astronaut/astronaut.component';
+import { CountriesComponent } from './countries/countries.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +37,14 @@ import { AstronautComponent } from './astronaut/astronaut.component';
     CountdownTimerComponent,
     CountdownParentComponent,
     MissionControlComponent,
-    AstronautComponent
+    AstronautComponent,
+    CountriesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

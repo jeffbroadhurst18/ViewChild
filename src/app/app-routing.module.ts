@@ -8,6 +8,7 @@ import { OnChangesParentComponent } from './on-changes-parent/on-changes-parent.
 import { DoCheckParentComponent } from './do-check-parent/do-check-parent.component';
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
 import { MissionControlComponent } from './missioncontrol/missioncontrol.component';
+import { CountriesComponent } from './countries/countries.component';
 
 const routes: Routes = [
   { path: 'number-parent', component: NumberParentComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'do-check-parent', component: DoCheckParentComponent },
   { path: 'countdown-parent', component: CountdownParentComponent },
   { path: 'missioncontrol', component: MissionControlComponent },
+  { path: 'countries', component: CountriesComponent },
 ];
 
 @NgModule({
@@ -30,4 +32,5 @@ export class AppRoutingModule {
 
   
 }
+
 

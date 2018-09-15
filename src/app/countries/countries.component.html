@@ -1,0 +1,10 @@
+<button (click)="getCountries()">Get Countries</button>
+<br/>
+<table *ngIf="countries" >
+  <tr>
+  <th>Country</th><th>Capital</th>
+  </tr>
+<tr *ngFor="let country of countries">
+  <td>{{country.name}}</td><td>{{country.capital}}</td>
+</tr>
+</table>
