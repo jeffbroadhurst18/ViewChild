@@ -20,6 +20,7 @@ import { CountdownParentComponent } from './countdown-parent/countdown-parent.co
 import { MissionControlComponent } from './missioncontrol/missioncontrol.component';
 import { AstronautComponent } from './astronaut/astronaut.component';
 import { CountriesComponent } from './countries/countries.component';
+import 'rxjs';
 
 @NgModule({
   declarations: [

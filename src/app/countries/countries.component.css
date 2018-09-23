@@ -1,0 +1,12 @@
+.search-result {
+  list-style: none;
+}
+
+.search-result:hover {
+    color: blue;
+    cursor: pointer; 
+}
+
+#search-component {
+    float: left;
+}

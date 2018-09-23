@@ -8,3 +8,19 @@
   <td>{{country.name}}</td><td>{{country.capital}}</td>
 </tr>
 </table>
+<br/>
+<div id="search-component">
+  <h4>Country Search</h4>
+ 
+   <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+ 
+  <ul>
+    <li *ngFor="let country of countries$ | async" class="search-result">
+         <span (click)="selectCountry(country)"> {{country.name}}</span>
+    </li>
+  </ul> 
+
+</div>
+<div *ngIf="selectedCountry">
+  {{selectedCountry}}
+</div>
